@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/sogasusumu/rails_const_normalizer.git
-  revision: 1e765466714475004881881e1dfa008075aa7a19
+  revision: 3e815927effe8760412645f6e0ae9abe3a06cd30
   specs:
     rails_const_normalizer (0.1.3)
       activesupport
@@ -26,9 +26,9 @@ GIT
 
 GIT
   remote: https://github.com/sogasusumu/rails_responder.git
-  revision: 6126d08aff0baeaf2cf8e9dceab5f0dd30f7f48f
+  revision: 87d4aa10674e87ca89c2bee91fe4b84f5b65d273
   specs:
-    rails_responder (0.1.0)
+    rails_responder (0.1.1)
       contracts
       rails (~> 5.2.3)
       rails_const_normalizer
