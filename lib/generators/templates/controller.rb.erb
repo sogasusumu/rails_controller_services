@@ -1,0 +1,12 @@
+# frozen_string_literal: true
+
+class <%= klass %> < ApplicationController
+<% acts.each do |act| -%>
+  def <%= act %>
+    interacted = <%= interactor_klass(act) %>.perform_now(params)
+    response = <%= responder_klass(act) %>.perform_now(interacted)
+    render json: response
+  end
+  <%= "\n" unless act == acts.last -%>
+<% end -%>
+end
